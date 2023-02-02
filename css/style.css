@@ -356,7 +356,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 22px;
+  padding: 22px 0;
 }
 
 .newsletter__content {
@@ -369,8 +369,13 @@ body {
 
 }
 
-.form__email {
+.form {
   display: flex;
+}
+
+.form__email {
+  margin-right: 10px;
+  display: block;
 }
 
 .form__area {
@@ -570,7 +575,7 @@ a {
   }
 
   .form__area {
-    padding: 15px 5px 8px 10px;
+    padding: 10px 5px 10px 10px;
   }
 
   .company {
@@ -679,19 +684,17 @@ a {
   }
 
   .form {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(2, 1fr);
     /* transform: translate(25%, 5%); */
   }
 
-  .form__email {
+  /* .form__email {
     display: block;
-    margin-bottom: 20px;
-  }
+  } */
 
   .form__area {
     margin-bottom: 20px;
-    padding: 10px 0;
-    text-align: center;
+
   }
 }
